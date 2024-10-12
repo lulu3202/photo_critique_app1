@@ -17,6 +17,7 @@ genai.configure(api_key=API_KEY)
 # Initialize the Generative Model
 model = genai.GenerativeModel("gemini-1.5-flash-8b")
 
+
 def get_gemini_response(input_prompt, image):
     response = model.generate_content(
         [input_prompt, image[0]]
