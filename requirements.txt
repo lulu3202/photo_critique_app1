@@ -1,4 +1,4 @@
-streamlit
-google-generativeai
-python-dotenv
-Pillow
+streamlit       # Web app framework to create interactive apps
+google-generativeai  # Interface for interacting with Google's Gemini models
+python-dotenv   # Load environment variables from a .env file
+Pillow          # Image processing library for handling image uploads
